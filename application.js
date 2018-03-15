@@ -1,10 +1,10 @@
 var config = {
-    apiKey: "AIzaSyD90XsWJOANcVOu11tyrWUt0aDv0EBysX0",
-    authDomain: "newcomments-4e8a0.firebaseapp.com",
-    databaseURL: "https://newcomments-4e8a0.firebaseio.com",
-    projectId: "newcomments-4e8a0",
-    storageBucket: "",
-    messagingSenderId: "182797535899"
+    apiKey: "AIzaSyAQwgAjP44vtH6SQgysfwM6iMrGKmR-Oj0",
+    authDomain: "jah-pro.firebaseapp.com",
+    databaseURL: "https://jah-pro.firebaseio.com",
+    projectId: "jah-pro",
+    storageBucket: "jah-pro.appspot.com",
+    messagingSenderId: "642095781814"
 };
 
 // Initialize your Firebase app
