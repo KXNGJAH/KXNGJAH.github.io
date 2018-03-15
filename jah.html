@@ -75,12 +75,9 @@
         <li><a href="https://www.cyberpowerpc.com/page/Intel/i7/?gclid=EAIaIQobChMI2rSOgsTf2QIVQm5-Ch1eMQk7EAAYASAAEgK-IPD_BwE">Buy your PC</a></li>
       </ul><br>
       <div class="input-group">
-        <input type="text" class="form-control" placeholder="Search Blog..">
-        <span class="input-group-btn">
-          <button class="btn btn-default" type="button">
-            <span class="glyphicon glyphicon-search"></span>
-          </button>
-        </span>
+	<form>
+	<p>Search: <input id="keywords" size="24" placeholder="start typing"></p>
+	</form>
       </div>
     </div>
 	
@@ -147,8 +144,22 @@
 </div>
 
 <footer class="container-fluid">
-  <p>Footer Text</p>
+  <p>Cya</p>
 </footer>
 
+<script type="text/javascript" src="/hilitor.js">
+</script>
+
+<script type="text/javascript">
+  var myHilitor;
+  document.addEventListener("DOMContentLoaded", function(e) {
+    myHilitor = new Hilitor2("playground");
+    myHilitor.setMatchType("left");
+  }, false);
+  document.getElementById("keywords").addEventListener("keyup", function(e) {
+    myHilitor.apply(this.value);
+  }, false);
+</script>
+	
 </body>
 </html>
